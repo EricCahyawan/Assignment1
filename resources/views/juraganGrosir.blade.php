@@ -1,0 +1,156 @@
+@extends('base.base')
+    @section('juraganGrosir')
+    <!--bg-center bg-no-repeat bg-cover bg-[url('/resources/images/002233&1C3D5A.svg')]-->
+    <!------------------------------------------------------------------------------------------------------->
+    <div class="relative mt-[2.12cm] h-[17.235cm] flex flex-col bg-center bg-no-repeat bg-cover bg-[url('https://techcrunch.com/wp-content/uploads/2018/02/20170830-img_5665.jpg?w=680')] bg-opacity-30">
+        <div class="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold bg-black bg-opacity-50">
+            <div class="text-center text-white flex flex-col gap-5">
+                <h1 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="text-3xl lg:text-5xl font-bold px-4 py-2 mb-2">
+                    Yuk, Gabung Grosir Pintar Sekarang!
+                </h1>
+                <!-- Konten Sub Judul -->
+                <h2 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="text-xl lg:text-3xl font-bold px-3 py-1">
+                    TAMBAH RATUSAN PELANGGAN BARU DAN NIKMATI OMZET TOKO GROSIR NAIK BERKALI LIPAT!
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="h-[40cm] lg:h-[20cm] flex flex-col justify-center items-center bg-yellow-400 lg:pl-40 lg:pr-40 pb-20 lg:pb-0 lg:gap-10">
+        <div class=" basis-2/4 flex flex-row justify-center items-start mt-20">
+            <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="text-3xl lg:text-5xl font-bold text-center">KEUNTUNGAN GABUNG GROSIR PINTAR</p>
+        </div>
+        <div class=" basis-2/4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 lg:pb-6 lg:mt-0 mt-10">         
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
+                <div class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
+                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                <div class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-yellow-300 dark:bg-gray-800 p-5 flex flex-col gap-5">
+                    <!--Mobile Content-->  
+                    <div class="flex items-start gap-2.5">
+                        <img class="w-8 h-8 rounded-full" src="https://static.vecteezy.com/system/resources/previews/027/312/393/original/portrait-of-a-call-center-woman-customer-service-isolated-essential-workers-avatar-icons-characters-for-social-media-user-profile-website-and-app-3d-render-illustration-png.png" alt="Jese image">
+                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                            <div class="flex items-center space-x-2 rtl:space-x-reverse">
+                                <span class="text-sm font-semibold text-gray-900 dark:text-white">CS Warung Pintar</span>
+                                <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:46</span>
+                            </div>
+                            <p class="text-sm font-bold py-2.5 text-gray-900 dark:text-white">Omzet Naik Berkali Lipat</p>
+                            <p class="text-sm font-semibold py-2.5 text-gray-900 dark:text-white">Karena ratusan pelanggan baru bisa belanja ke toko grosir Juragan lewat aplikasi kami.</p>
+                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-2.5">
+                        <img class="w-8 h-8 rounded-full" src="https://static.vecteezy.com/system/resources/previews/027/312/393/original/portrait-of-a-call-center-woman-customer-service-isolated-essential-workers-avatar-icons-characters-for-social-media-user-profile-website-and-app-3d-render-illustration-png.png" alt="Jese image">
+                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                            <div class="flex items-center space-x-2 rtl:space-x-reverse">
+                                <span class="text-sm font-semibold text-gray-900 dark:text-white">CS Warung Pintar</span>
+                                <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:47</span>
+                            </div>
+                            <p class="text-sm font-bold py-2.5 text-gray-900 dark:text-white">Dukungan Kurir dan Sales Keliling</p>
+                            <p class="text-sm font-semibold py-2.5 text-gray-900 dark:text-white">Untuk bantuan pengiriman, penyetoran hingga jemput bola cari pelanggan, semua bisa kita bantu!</p>
+                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
+                <div class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
+                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                <div class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-yellow-300 dark:bg-gray-800 p-5  flex flex-col gap-5">
+                    <!--Mobile Content-->  
+                    <div class="flex items-start gap-2.5">
+                        <img class="w-8 h-8 rounded-full" src="https://static.vecteezy.com/system/resources/previews/027/312/393/original/portrait-of-a-call-center-woman-customer-service-isolated-essential-workers-avatar-icons-characters-for-social-media-user-profile-website-and-app-3d-render-illustration-png.png" alt="Jese image">
+                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                            <div class="flex items-center space-x-2 rtl:space-x-reverse">
+                                <span class="text-sm font-semibold text-gray-900 dark:text-white">CS Warung Pintar</span>
+                                <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:48</span>
+                            </div>
+                            <p class="text-sm font-bold py-2.5 text-gray-900 dark:text-white">Banyak Cashback dan Bonusnya</p>
+                            <p class="text-sm font-semibold py-2.5 text-gray-900 dark:text-white">Dapetin voucher, cashback, dan bonus lainnya tiap transaksi di aplikasi.</p>
+                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
+                        </div>
+                    </div> 
+                    <div class="flex items-start gap-2.5">
+                        <img class="w-8 h-8 rounded-full" src="https://static.vecteezy.com/system/resources/previews/027/312/393/original/portrait-of-a-call-center-woman-customer-service-isolated-essential-workers-avatar-icons-characters-for-social-media-user-profile-website-and-app-3d-render-illustration-png.png" alt="Jese image">
+                        <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl dark:bg-gray-700">
+                            <div class="flex items-center space-x-2 rtl:space-x-reverse">
+                                <span class="text-sm font-semibold text-gray-900 dark:text-white">CS Warung Pintar</span>
+                                <span class="text-sm font-normal text-gray-500 dark:text-gray-400">11:49</span>
+                            </div>
+                            <p class="text-sm font-bold py-2.5 text-gray-900 dark:text-white">Lebih Hemat Waktu dan Energi</p>
+                            <p class="text-sm font-semibold py-2.5 text-gray-900 dark:text-white">Dari orderan masuk, penyiapan barang, pengiriman, sampai setoran, semua cukup dari aplikasi.</p>
+                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400">Delivered</span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="h-[19cm] lg:h-[25cm] bg-[#5980a2] flex flex-col gap-10 lg:pl-52 lg:pr-52">
+        <div class="mt-5">
+            <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="font-bold text-3xl lg:text-5xl text-center mt-5">SYARAT GABUNG:</p>
+        </div>
+        <div class="flex flex-row justify-center lg:gap-5">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="basis-2/6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://hybrid.co.id/wp-content/uploads/2021/07/d58faa0d60d4e03c3c7fc796b154f96c_Warung-Pintar-Group-Launch-3-1.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 lg:text-2xl text-sm font-bold tracking-tight text-gray-900 dark:text-white text-center">1. Punya Toko Fisik Grosir/Semi Grosir Dilihat Dari Display Stoknya</h5>
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="basis-2/6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://cdn.antaranews.com/cache/1200x800/2021/07/07/Warung-Pintar-Group-Launch-2.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 lg:text-2xl text-sm font-bold tracking-tight text-gray-900 dark:text-white text-center">2. Punya Handphone Android</h5>
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="basis-2/6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://www.awanapps.com/wp-content/uploads/2021/11/Kemitraan-Warung-Pintar-Group-dan-CCEP-Indonesia.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 lg:text-2xl text-sm font-bold tracking-tight text-gray-900 dark:text-white text-center">3. Paham dan Bersedia Ikut Peraturan Grosir Pintar</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row  justify-center lg:gap-5">
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="basis-1/2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg w-full" src="data:image/jpeg;base64,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" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 lg:text-2xl text-sm font-bold tracking-tight text-gray-900 dark:text-white text-center">4. Memiliki Kapasitas Stok Produk yang Mumpuni</h5>
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="basis-1/2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img class="rounded-t-lg" src="https://y6a2n7m3.rocketcdn.me/wp-content/uploads/2021/07/Warung-Pintar-Group-001.jpg" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 lg:text-2xl text-sm font-bold tracking-tight text-gray-900 dark:text-white text-center">5. Wajib Melayani Semua Order Dari Aplikasi</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="h-[17.235cm] bg-[#deccab] flex flex-col gap-20 lg:pl-52 lg:pr-52">
+        <div class="mt-20">
+            <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" class="font-bold text-3xl lg:text-5xl text-center">RIBUAN JURAGAN GROSIR UDAH RASAIN MANFAATNYA!</p>
+        </div>
+        @include('includes.carousel')
+    </div>  
+    @endsection
